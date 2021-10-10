@@ -1,0 +1,16 @@
+app:
+  message2: invalid currency..
+  message3: availableBalance Is Negative..
+  message5: accontId Is Missing..
+  message6: invalid Direction..
+server:
+  port: 8080
+spring:
+  rabbitmq:
+    host: localhost
+    password: guest
+    port: 15672
+    username: guest
+    exchange: account.exchange
+    queue: account.queue
+    routingkey: account.routingkey
