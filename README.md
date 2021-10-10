@@ -15,15 +15,21 @@ Junit
 
 2.	In Application.ym filel define configuration for :
 
-a.	Port of Service
-b.	Rabbitmq Setting
-c.	Messages
+   a.	Port of Service
+
+
+  b.	Rabbitmq Setting
+
+
+  c.	Messages
 
 3.	In schema.sq file define table and column that generate in postgresql after running the project. 
 4.	In application.properties file define database Connection Setting
 5.	run Producer and Consumer Services
 
 #Example
+
+
 RestUrl:localhost:9091/modular-bank/account/create
 Method:Post
 
